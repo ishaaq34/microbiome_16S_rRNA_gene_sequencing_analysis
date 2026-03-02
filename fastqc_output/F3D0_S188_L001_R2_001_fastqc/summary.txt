@@ -1,0 +1,11 @@
+PASS	Basic Statistics	F3D0_S188_L001_R2_001.fastq
+FAIL	Per base sequence quality	F3D0_S188_L001_R2_001.fastq
+PASS	Per tile sequence quality	F3D0_S188_L001_R2_001.fastq
+PASS	Per sequence quality scores	F3D0_S188_L001_R2_001.fastq
+FAIL	Per base sequence content	F3D0_S188_L001_R2_001.fastq
+FAIL	Per sequence GC content	F3D0_S188_L001_R2_001.fastq
+PASS	Per base N content	F3D0_S188_L001_R2_001.fastq
+WARN	Sequence Length Distribution	F3D0_S188_L001_R2_001.fastq
+FAIL	Sequence Duplication Levels	F3D0_S188_L001_R2_001.fastq
+FAIL	Overrepresented sequences	F3D0_S188_L001_R2_001.fastq
+PASS	Adapter Content	F3D0_S188_L001_R2_001.fastq
