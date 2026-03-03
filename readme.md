@@ -11,7 +11,6 @@ The pipeline begins with raw Illumina paired-end FASTQ sequences and moves throu
 3. **Classification & Clustering (Steps 17-18):** Assigning taxonomy to the curated reads and clustering them into Operational Taxonomic Units (OTUs).
 4. **Statistical Analysis (Steps 19-21):** Normalizing the data to calculate Alpha Diversity (within-sample richness), Beta Diversity (between-sample variation via PCoA/AMOVA), and identifying specific differential biomarkers between treatment groups using LEfSe.
 
-0. [00 Pipeline Index.md](00_Pipeline_Index.md)
 1. [FastQC Quality Control Report](01_FastQC_Report_F3D0.md)
 2. [mothur: make.file](02_MakeFile_Report.md)
 3. [mothur: make.contigs](03_MakeContigs_Report.md)
