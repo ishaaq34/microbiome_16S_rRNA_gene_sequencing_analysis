@@ -71,34 +71,13 @@ stability.trim.contigs.summary
 - 75% of sequences have 0 ambiguous bases — most contigs assembled cleanly
 - 97.5%-tile has 6 ambiguous bases — a small fraction of contigs had positions where R1 and R2 disagreed at equal quality
 - Maximum is 249 ambiguous bases — these sequences are essentially noise and must be removed
-- For filtering, `maxambig=0` is standard — any contig with ambiguous bases is unreliable
 
 **Homopolymers (Polymer):**
 
 - Median is 4, 97.5%-tile is 6 — most sequences have short homopolymer runs, which is normal
 - Maximum is 243 — this is an artifact from the extremely long/erroneous sequences
-- For filtering, `maxhomop=8` is standard — the longest biologically real homopolymer in 16S is about 8 bases
 
----
 
-## What needs to be filtered out
-
-Based on this summary, the following `screen.seqs` thresholds are appropriate (following the MiSeq SOP):
-
-| Parameter | Value | Reason |
-|-----------|-------|--------|
-| `maxambig` | 0 | Remove any contig with ambiguous bases |
-| `maxlength` | 275 | Remove contigs that are too long (non-specific products) |
-
----
-
-## Output file
-
-| File | Description |
-|------|-------------|
-| `stability.trim.contigs.summary` | Tab-delimited file with per-sequence statistics (one row per contig) |
-
----
 
 ## Next step
 
